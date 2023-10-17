@@ -7,4 +7,13 @@ def celsius_to_fahrenheit():
     return fahrenheit
 
 celsius_to_fahrenheit()
-print(f"fahrenheit: {fahrenheit}")
+print(f"{celsius} Celsius to Fahrenheit is {fahrenheit}")
+
+fahrenheit = 82
+
+def fahrenheit_to_celsius():
+    celsius = (fahrenheit - 32) * 5/9
+    return celsius
+
+fahrenheit_to_celsius()
+print(f"{fahrenheit} Fahrenheit to Celsius is {celsius}")

@@ -18,4 +18,4 @@ fahrenheit = 82
 fahrenheit_to_celsius()
 print(f"{fahrenheit} Fahrenheit to Celsius is {celsius}")
 
-input("how old are you")
+

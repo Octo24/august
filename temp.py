@@ -1,8 +1,8 @@
-def celsius_to_fahrenheit():
+def celsius_to_fahrenheit(celsius):
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit
 
-def fahrenheit_to_celsius():
+def fahrenheit_to_celsius(fahrenheit):
     celsius = (fahrenheit - 32) * 5/9
     return celsius
 
@@ -17,3 +17,5 @@ fahrenheit = 82
 
 fahrenheit_to_celsius()
 print(f"{fahrenheit} Fahrenheit to Celsius is {celsius}")
+
+input("how old are you")
